@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#pag1 {
+    height: 92vh;
+    background-image: url(h1_hero1.jpg);
+    background-size: cover;
+    background-color: rgb(0,0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+header { 
+    height: 10vh;
+}
+
+header img {
+    margin-top: 2vh;
+    margin-left: 10%;
+    vertical-align: middle;
+    margin-bottom: 2vh;
+}
+
+.telefone{
+ font-size:20px ;
+ color: white;
+ text-decoration: none;
+ margin-left: 40%;
+ font-family:"Questrial",sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ margin-right: 2%;
+ vertical-align: middle;
+}
+
+.btn1 {
+    font-size: 16px;
+    color: white;
+    font-family:"Questrial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block ;
+    width: 9%;
+    height: 5vh;
+    text-decoration: none;
+    background-color: #d6a04c;
+    line-height: 5vh;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.btn1:hover {
+    background: none;
+    transition: 0.5s;
+    border: 1px solid #d6a04c;
+    color: #d6a04c;
+}
+
+#menu {
+    display: inline-block;
+    margin-left: 2%;
+    width: 2.5%;
+}
+
+#menu>span {
+    display: inline-block;
+    width: 100%;
+    border: solid white 1px;
+}
