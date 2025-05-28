@@ -3,9 +3,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
+body{
+    background-color:#0B0016;
+}
 #pag1 {
-    height: 92vh;
+    height: 120vh;
     background-image: url(h1_hero1.jpg);
     background-size: cover;
     background-color: rgb(0,0, 0, 0.5);
@@ -100,7 +102,7 @@ p {
     font-family:"Questrial",sans-serif;
     font-weight: normal;
     position: absolute;
-right: 10%;
+    right: 10%;
     width: 20%;
     color: white;
 }
@@ -166,24 +168,23 @@ color: white;
     margin-left: 50%;
     position: absolute;
     bottom: 0;
-    height: 12vh;
+    height: 19vh;
     right: 0;
 }
 
 .texto3 {
     font-size: 20px;
     display: inline-block;
-    vertical-align: top;
     line-height: 1.6;
     text-align: left;
     font-family:"Questrial",sans-serif;
     margin-left: 5%;
+    margin-top: -2.5%;
 }
 
 .mouse{
-    margin-top: 8%;
-    margin-left: 23%;
-}
+    margin-top: 8px;
+    left: 5px}
 
 #pagina2{
     background-color: #0b0016;
@@ -197,11 +198,9 @@ color: white;
     padding-top: 5%;
 }
 
-
-
 #pagina2 {
     background-color: #0B0016;
-    height: 92vh;
+    height: 500vh;
     
 }
 .texto4 {
@@ -233,6 +232,7 @@ margin-left: 23%;
  margin-left: 50%;
  margin-top: -35%;
  position: relative;
+ 
 }
 
 #abt2 {
@@ -272,30 +272,22 @@ margin-left: 23%;
     padding-top: 5%;
 }
 
-.texto7 {
+.text7 {
     color: white;
     font-size: 38px;
     font-family: "Questrial", sans-serif;
-    margin-left: 10%;
-    vertical-align: middle;
-    font-weight: 400;
-    font-style: normal;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-left: 5%;
+
+    
 }
 
 .imgsp2 {
-    margin-left: 10%;
+    opacity: 1;
+    text-align: center;
     margin-top: 4%;
 }
 
-.img2 {
-    margin-left: 1%;
-}
 
-.img3{
-    margin-left: 1%;
-}
 
 .texto8{
     color: white;
@@ -366,17 +358,9 @@ margin-left: 23%;
     cursor: pointer;
 }
 
-.imgsp2 {
-    opacity: 1;
-}
-
-
-
-
-
 #pagina3{
-    background-color: #0B0016;
-    height: 92vh;
+    background-color: #1E1E1E;
+    height: 120vh;
     width: 100%;
     position: relative;
 }
@@ -388,11 +372,50 @@ margin-left: 23%;
 }
 
 .texto11 {
-    color: 1px white;
+   -webkit-text-stroke: 2px white;
     line-height: 1;
-    margin: 0;
-    -webkit-text-fill-color: transparent;
+    margin: 80px;
+    color: transparent;
     font-weight: 600;
     font-size: 215px;
     font-family: "cabin", sans-serif;
+    background: #1E1E1E;
+    text-align: right 30px;
 }
+
+.imagem4{
+    position: absolute;
+    top: 30%;
+    height: 70vh;
+    width:85%;
+    margin: 80px;
+}
+
+.texto12{
+    background-color: #d6a04c;
+    color: white;
+    padding: 30px; ;
+    width: 48.5%;
+    left: 80px;
+    position: absolute;
+    top: 88.5%;
+    bottom: 0;
+    height: 30vh;
+}
+.texto13{
+    font-size: 33px;
+    font-family: "Questrial", sans-serif;
+}
+
+.texto14{
+    font-size: 15px;
+    font-family: "Questrial", sans-serif;
+}
+
+.seta{
+    position:absolute;
+    color: white;
+    right: 125px;
+    top: 70%;
+}
+
