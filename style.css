@@ -3,9 +3,11 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body{
-    background-color: #0B0016;
+    background-color: white;
 }
+ 
 #pag1 {
     height: 92vh;
     background-image: url(h1_hero1.jpg);
@@ -14,6 +16,7 @@ body{
     background-blend-mode: multiply;
     position: relative;
 }
+
 header { 
     height: 10vh;
 }
@@ -26,15 +29,15 @@ header img {
 }
 
 .telefone{
- font-size:20px ;
- color: white;
- text-decoration: none;
- margin-left: 40%;
- font-family:"Questrial",sans-serif;
- font-weight: 400;
- font-style: normal;
- margin-right: 2%;
- vertical-align: middle;
+    font-size:20px ;
+    color: white;
+    text-decoration: none;
+    margin-left: 40%;
+    font-family:"Questrial",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 2%;
+    vertical-align: middle;
 }
 
 .btn1 {
@@ -83,14 +86,13 @@ p {
     color: white;
     font-size: 75px;
     display: inline-block;
-   
     font-family: "Cabin", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 #texto{
-     margin-top: 16%;
+    margin-top: 16%;
     margin-left: 18%;
     font-size: 40px;
     
@@ -102,7 +104,7 @@ p {
     font-family:"Questrial",sans-serif;
     font-weight: normal;
     position: absolute;
-right: 10%;
+    right: 10%;
     width: 20%;
     color: white;
 }
@@ -127,8 +129,8 @@ right: 10%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-     text-decoration: none; 
-     color:#d6a04c;}
+    text-decoration: none; 
+    color:#d6a04c;}
 
 .playintero:hover {
     border: 1px solid #d6a04c;
@@ -154,10 +156,7 @@ color: white;
 
 .junto {
     border: rgb(0,0, 0, 0.055) 2px solid ;
-    text-align: center;
-    
-
-   
+    text-align: center; 
 }
 
 .quadrado {
@@ -199,13 +198,6 @@ color: white;
     padding-top: 5%;
 }
 
-
-
-#pagina2 {
-    background-color: #0B0016;
-    height: 100vh;
-    width: 100%;
-}
 .texto4 {
  color: white;
  font-size: 40px;
@@ -373,19 +365,12 @@ margin-left: 23%;
     opacity: 1;
 }
 
-
-
-
-
 #pagina3{
     background: #1E1E1E;
     height: 95vh;
     width: 100%;
     position: relative;
 }
-
-
-
 
 #espaco3 {
     margin-left: 10%;
@@ -406,20 +391,19 @@ margin-left: 23%;
     font-family: "cabin", sans-serif;
     background: #1E1E1E;
     text-align: left;
-    
     margin-left: 290px;
     
 }
 
 .imagem4{
     position: absolute;
-    top: -2%;
+    top: 0%;
     height: 70vh;
     width:65%;
     margin: 260px;
 }
 
-.texto12{
+.banana{
     background-color: #d6a04c;
     color: white;
     width: 45%;
@@ -460,25 +444,21 @@ margin-left: 23%;
     text-align: center;
     line-height: 70px;
     margin-left: 85%;
-    
     margin-top: -35%;
 }
 
 .texto12Hover:hover{
     background-color: #272727;
 }
-.texto12Hover:hover h3{
-    color: #D6A04C;
-}
 
-.texto12:hover a{
+.texto12:hover {
     background-color: #D6A04C;
     color: #fff;
 }
 
 \\
 
-.texto13 p{
+.texto13{
     font-size: 15px;
     width: 50%;
     font-family: "Questrial", sans-serif;
@@ -493,15 +473,6 @@ margin-left: 23%;
     font-family: "Questrial", sans-serif;
     margin-left: 10%;
 }
-
-
-#texto3{
-    font-family: "Cabin", sans-serif;
-    font-size: 32px;
-    margin-bottom: 4%;
-}
-
-
 
 #pagina4{
     background-color:#0b0016 ;
@@ -520,17 +491,18 @@ margin-left: 23%;
     color: white;
     position: relative;
     width: 30%;
-    right: -1160px;
+    right: -830px;
     bottom: 450px;
+    text-align: right;
 }
 
 .texto17{
     font-family: "Questrial", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    right: 500px;
     color: white;
     position: relative;
-    width: 70%;
-    right: -1160px;
+    text-align: right ;
     bottom: 450px;
 }
 
@@ -568,13 +540,23 @@ margin-left: 23%;
 
 .belara2{
 color: white;
-font-size: 20px;
+text-align: center;
+font-size: 40px;
 }
+
 .belara3{
     color: white;
-    
+    text-align: center;
+    font-size: 30px;
 }
 
 .sla {
     text-align: center;
+}
+
+#espaco4 {
+    margin-left: 10%;
+    vertical-align: middle;
+    padding-top: 5%;
+    background: #0A0A0A;
 }
