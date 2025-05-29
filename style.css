@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #0b0016 ;
 }
  
 #pag1 {
@@ -559,4 +559,47 @@ font-size: 40px;
     vertical-align: middle;
     padding-top: 5%;
     background: #0A0A0A;
+}
+
+.texto19{
+    color: white;
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.img6{
+    vertical-align: middle;
+}
+
+.texto20{
+    color: white;
+    font-size: 32px;
+    font-family: "Cabin", sans-serif;
+    display: inline-block;
+}
+
+.texto18{
+    vertical-align: middle;
+    display: inline-block;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.texto21{
+    color: white;
+    font-size: 14px;
+    font-family: "Questrial", sans-serif;
+}
+
+.seta2{
+    text-decoration: none;
+    font-size: 150%;
+    background-color: rgb(255, 255, 255, 0.1);
+    text-align: center;
+    margin-right: 15%;
+    margin-bottom: 2%;
 }
